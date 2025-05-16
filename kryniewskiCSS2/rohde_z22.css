@@ -1,0 +1,19 @@
+/* Ustawienia dla akapitów */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* Ustawienia dla akapitu o ID #gruby_rohde */
+p#gruby_rohde {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* Ustawienia dla identyfikatora uniwersalnego #dlawszyskich_rohde */
+#dlawszyskich_rohde {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

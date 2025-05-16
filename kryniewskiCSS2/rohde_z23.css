@@ -1,0 +1,39 @@
+/* Ustawienia dla akapitu z ID #pogrubienie_rohde */
+p#pogrubienie_rohde {
+    font-size: calc(25px + 5px); /* 25 + liczba liter nazwiska */
+    color: #7D2D3A; /* 125+23, 50+41, 200+3 */
+}
+
+/* Ustawienia dla akapitu z ID #pochylona_rohde */
+p#pochylona_rohde {
+    font-size: calc(30pt + 5pt); /* 30 + liczba liter nazwiska */
+    color: #E1A8B3; /* 225+23, 150+41, 100+3 */
+}
+
+/* Ustawienia dla akapitu z ID #index_gorny_rohde */
+p#index_gorny_rohde {
+    font-size: calc(0.5cm + 0.1cm * 5); /* 0.5 + 0.1 * liczba liter nazwiska */
+    color: #B191E4; /* 145+23, 100+41, 20+3 */
+}
+
+/* Ustawienia dla akapitu z ID #index_dolny_rohde */
+p#index_dolny_rohde {
+    font-size: calc(0.5cm + 0.2cm * 5); /* 0.5 + 0.2 * liczba liter nazwiska */
+    color: rgba(45, 200, 220, 1); /* 45+23, 200+41, 220+3 */
+}
+
+/* Ustawienia dla akapitu z ID #mono_rohde */
+p#mono_rohde {
+    font-size: calc(35px + 5px); /* 35 + liczba liter nazwiska */
+    color: #111464; /* 17+23, 180+41, 100+3 */
+}
+
+/* Ustawienia dla akapitu z ID #powiekszenie_rohde */
+p#powiekszenie_rohde {
+    color: #4B2D96; /* 75+23, 20+41, 150+3 */
+}
+
+/* Ustawienia dla akapitu z ID #pomniejszenie_rohde */
+p#pomniejszenie_rohde {
+    color: rgba(175, 120, 50, 1); /* 175+23, 120+41, 50+3 */
+}
