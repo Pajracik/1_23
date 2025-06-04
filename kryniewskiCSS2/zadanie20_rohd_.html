@@ -1,111 +1,55 @@
-<!DOCTYPE html>
-<html lang="pl">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zadanie 20</title>
-    <style>
-        /* Styl globalny dla całej strony */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        /* Blok pierwszy */
-        .block1 {
-            background-color: #FFFDD0; /* kremowy */
-            width: 40%;
-            height: 100px; /* przykładowa wysokość */
-            padding: 10px;
-        }
-        .block1 p {
-            color: orange;
-            font-size: 20pt;
-        }
-        /* Blok drugi */
-        .block2 {
-            background-color: #FF00FF; /* magenta */
-            width: 15%;
-            height: 80px; /* przykładowa wysokość */
-            padding: 10px;
-        }
-        .block2 i {
-            color: green;
-            font-size: 20pt;
-            font-weight: bold;
-        }
-        .block2 strike {
-            color: red;
-            font-size: 20pt;
-        }
-        .block2 u {
-            color: violet;
-            font-size: 20pt;
-            text-decoration: overline;
-        }
-        /* Blok trzeci */
-        .block3 {
-            background-color: #98FB98; /* zieleń wiosenna */
-            width: 30%;
-            height: 150px; /* przykładowa wysokość */
-            padding: 10px;
-        }
-        .block3 h1 {
-            color: blue;
-            font-size: 30pt;
-            text-decoration: underline;
-        }
-        .block3 ol {
-            font-size: 25pt;
-            color: blue;
-        }
-        .block3 ol li {
-            margin: 5px 0;
-        }
-        .block3 ol li ol {
-            color: red;
-            font-size: 20pt;
-        }
-        .block3 ol li ol li ol {
-            color: gray;
-            font-size: 15pt;
-        }
-    </style>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 
-    <!-- Blok pierwszy -->
-    <div class="block1">
-        <p>Informatyka to dziedzina nauki zajmująca się przetwarzaniem informacji oraz budowaniem systemów komputerowych.</p>
+
+ <!-- Blok pierwszy -->
+    <div style="background-color: #FFFDD0; width: 40%; height: 100%;">
+        <p style="color: orange; font-size: 20pt; font-family: Arial;">
+P jest kolorem pomarańczowym <br> <br>
+wielkością 20 punktów <br> <br>
+i czcionką Arial <br> <br>
+informatyka to bardzo rozległy ale opłacalny zawód
+        </p>
     </div>
 
     <!-- Blok drugi -->
-    <div class="block2">
+    <div style="background-color: magenta; width: 15%; height: 80%;">
         <p>
-            <i>Ten tekst jest kursywą i pogrubiony.</i>
-            <strike>Ten tekst jest przekreślony.</strike>
-            <u>Ten tekst jest podkreślony.</u>
+            <i style="color: green; font-size: 20pt; font-weight: bold;">
+                I jest pogrubione
+            </i>
+            <strike style="color: red; font-size: 20pt;">
+                strike to przekreślenie
+            </strike>
+            <u style="color: purple; font-size: 20pt; text-decoration: overline;">
+                U ma nadkreślenie (Pozdrowienia dla mgr inż. Marka Kryniewskiego)
+            </u>
         </p>
     </div>
 
     <!-- Blok trzeci -->
-    <div class="block3">
-        <h1>Lista tematów związanych z informatyką</h1>
-        <ol>
-            <li>Programowanie
-                <ol>
-                    <li>JavaScript</li>
-                    <li>Python
-                        <ol>
-                            <li>NumPy</li>
-                            <li>Pandas</li>
+    <div style="background-color: #00FF7F; width: 30%; height: 100%;">
+        <h1 style="color: blue; font-size: 30pt; text-decoration: underline;">
+            Nagłówek poziomu 1. jest podkreślony (informatyka to zawód przyszłościowy)
+        </h1>
+        <ol style="color: blue; font-size: 25pt;">
+            <li>Punkt pierwszy (informatyk jest narażony na fatygę oczu lub ich uszkodzenia)
+                <ol style="color: red; font-size: 20pt;">
+                    <li>Punkt drugi(jednakże przy odpowiednich warunkach pracy ryzyko da się ograniczyć)
+                        <ol style="color: gray; font-size: 15pt;">
+                            <li>Punkt trzeci (więc koniec końców informatyk nie ma tak źle)</li>
                         </ol>
                     </li>
                 </ol>
             </li>
-            <li>Sieci komputerowe</li>
-            <li>Bazy danych</li>
         </ol>
     </div>
 
-    <!-- Tomasz Rohde -->
-</body>
+
+ </body>
 </html>
